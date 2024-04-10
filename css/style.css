@@ -17,6 +17,15 @@ h4,
 .font-weight-semi-bold {
     font-weight: 600 !important;
 }
+.img-container {
+    width: 400px; /* 容器的宽度 */
+    height: 300px; /* 容器的高度 */
+}
+
+.img-container img {
+    width: 100%; /* 图像宽度填满容器 */
+    height: auto; /* 高度自适应 */
+}
 
 h5,
 h6,
